@@ -9,12 +9,12 @@ Google BigQuery support for Spark, SQL, and DataFrames.
 
 To use the package in a Google [Cloud Dataproc](https://cloud.google.com/dataproc/) cluster:
 
-`spark-shell --packages com.shina:spark-bigquery:0.2.3-SNAPSHOT`
+`spark-shell --packages io.github.odidere:spark-bigquery:0.2.3-SNAPSHOT`
 
 To use it in a local SBT console:
 
 ```scala
-import com.shina.spark.bigquery._
+import io.github.odidere.spark.bigquery._
 
 // Set up GCP credentials
 sqlContext.setGcpJsonKeyFile("<JSON_KEY_FILE>")
